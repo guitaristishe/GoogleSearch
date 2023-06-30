@@ -42,4 +42,13 @@ public class Hook {
         return browser;
     }
 
+    public void start() {
+        String browser = getDriver();
+        getDriver();
+    }
+
+    public void close() {
+        driver.quit();
+    }
+
 }
